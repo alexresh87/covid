@@ -23,7 +23,7 @@ class LoaderCountries
 
         $oCells = $spreadsheet->getActiveSheet()->getCellCollection();
 
-        for ($iRow = 1; $iRow <= $oCells->getHighestRow(); $iRow++) {
+        for ($iRow = 2; $iRow <= $oCells->getHighestRow(); $iRow++) {
             $oCell = $oCells->get('C' . $iRow);
             if ($oCell) {
                 if ($oCell->getValue()) {

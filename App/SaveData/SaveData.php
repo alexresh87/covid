@@ -14,7 +14,7 @@ class SaveData
 
     public function attach($className)
     {
-        if(!array_search($className, $this->classes, true)){
+        if (!array_search($className, $this->classes, true)) {
             $this->classes[] = $className;
         }
         return $this;
