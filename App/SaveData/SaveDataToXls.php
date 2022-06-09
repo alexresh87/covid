@@ -4,7 +4,7 @@ namespace App\SaveData;
 
 use PhpOffice\PhpSpreadsheet\IOFactory;
 
-class SaveDataToXls implements SaveData
+class SaveDataToXls implements SaveDataInterface
 {
     const DIR_TO_SAVE = "xls_data";
 

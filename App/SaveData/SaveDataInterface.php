@@ -2,7 +2,7 @@
 
 namespace App\SaveData;
 
-interface SaveData
+interface SaveDataInterface
 {
     public function save($data);
 }
